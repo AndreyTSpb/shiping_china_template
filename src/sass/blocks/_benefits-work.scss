@@ -1,0 +1,30 @@
+.benefits-of-work{
+    background-color: #f3f3f3;
+    height: 600px;
+    padding: 50px 20px;
+    text-align: center;
+    h2{
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    &__grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-around;
+        &-item{
+            text-align: left;
+            ul{
+                list-style: none;
+                li{
+                    h6{
+                        font-size: 16px;
+                        color: $main-color;
+                    }
+                    p{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}

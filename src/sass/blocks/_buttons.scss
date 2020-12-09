@@ -1,0 +1,28 @@
+.btn{
+    width: 160px;
+    height: 45px;
+    padding: 13px 13px;
+    background-color: $main-color;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.83;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 22px;
+    &:hover{
+        box-shadow: $main-shadow;
+    }
+    &__big{
+        width: 230px;
+        height: 57px;
+        padding: 23px 45px;
+        font-size: 15px;
+        border-radius: 28px;
+        padding: 13px 13px;
+    }
+}
