@@ -1,0 +1,69 @@
+.shem-job{
+    background-color: #f3f3f3;
+    min-height: 454px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    h2{
+        text-transform: uppercase;
+    }
+
+    &__grid-1{
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(4, 255px);
+        grid-column-gap: 40px;
+        justify-content: space-around;
+        align-items: flex-start;
+        img{
+            width: 50px;
+            height: 50px;
+        }
+        h4{
+            color: $main-color;
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 11px;
+        }
+        p{
+            font-size: 14px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.43;
+            letter-spacing: normal;
+            text-align: center;
+            color: #3a3a3a;
+        }
+    }
+
+    &__grid-2{
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(3, 255px);
+        grid-column-gap: 40px;
+        justify-content: center;
+        align-items: flex-start;
+        img{
+            width: 50px;
+            height: 50px;
+        }
+        h4{
+            color: $main-color;
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 11px;
+        }
+        p{
+            font-size: 14px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.43;
+            letter-spacing: normal;
+            text-align: center;
+            color: #3a3a3a;
+        }
+    }
+}
