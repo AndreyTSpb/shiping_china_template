@@ -8,13 +8,18 @@
     position: relative;
 }
 
+
 .container{
     max-width: 1140px;
     margin: 0 auto;
 }
 @import 'base/variables';
+@import 'blocks/delimiter';
+@import 'blocks/promo'; 
 
 @import 'blocks/title';
 @import 'blocks/header';
 @import 'blocks/buttons';
 @import 'blocks/benefits-work';
+@import 'blocks/us-work';
+@import 'blocks/price';

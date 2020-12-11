@@ -1,6 +1,6 @@
 .benefits-of-work{
     background-color: #f3f3f3;
-    height: 600px;
+    min-height: 100vh;
     padding: 50px 20px;
     text-align: center;
     h2{
@@ -8,14 +8,26 @@
         text-transform: uppercase;
     }
     &__grid{
+        margin-top: 35px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         justify-content: space-around;
+        grid-column-gap: 90px;
+        //grid-row-gap: 40px;
+
         &-item{
             text-align: left;
             ul{
                 list-style: none;
                 li{
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    margin-bottom: 35px;
+                    img{
+                        margin-right: 20px;
+                    }
+
                     h6{
                         font-size: 16px;
                         color: $main-color;
